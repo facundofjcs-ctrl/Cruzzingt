@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Pestañas" android:textColor="@color/cz_text" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/new_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_btn" android:padding="10dp" android:text="+ Nueva" android:textColor="@color/cz_primary_light" />
+        <TextView android:id="@+id/new_inc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:background="@drawable/bg_btn" android:padding="10dp" android:text="🕶 Incógnito" android:textColor="@color/cz_primary_light" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <LinearLayout android:id="@+id/tabs_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>

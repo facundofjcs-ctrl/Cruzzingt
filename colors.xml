@@ -1,0 +1,11 @@
+<resources>
+    <color name="cz_bg">#0A1020</color>
+    <color name="cz_surface">#111A30</color>
+    <color name="cz_pill">#1A2644</color>
+    <color name="cz_primary">#3B82F6</color>
+    <color name="cz_primary_light">#7AA7FF</color>
+    <color name="cz_text">#E7EDF9</color>
+    <color name="cz_muted">#8190AD</color>
+    <color name="cz_off">#55607A</color>
+    <color name="cz_incog">#04060C</color>
+</resources>
